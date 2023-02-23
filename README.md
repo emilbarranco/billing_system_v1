@@ -20,4 +20,4 @@ We have implemented the following technologies/libraries to get the features lis
 
 Splash Screen |  Home Screen |
 |:-----------:|:-----------:|
-![](https://www.nawpic.com/media/2020/iphone-12-pro-max-nawpic-1.png) | ![](https://www.nawpic.com/media/2020/iphone-12-pro-max-nawpic-1.png) |
+![](./assets/preview1.png) | ![](https://www.nawpic.com/media/2020/iphone-12-pro-max-nawpic-1.png) |
