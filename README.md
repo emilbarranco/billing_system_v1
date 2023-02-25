@@ -1,4 +1,4 @@
-# Billing System | Flutter Project #2 📦
+# Billing System (Reclare) | Flutter Project #2 📦
 ---
 ```sh
 Current Status: Under Development. 🕒

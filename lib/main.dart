@@ -18,14 +18,14 @@ class Core extends StatelessWidget {
       theme: ThemeData(
         fontFamily: GoogleFonts.poppins().fontFamily,
         primaryColor: primaryColor,
-        scaffoldBackgroundColor: lightBgColor,
+        scaffoldBackgroundColor: primaryDark,
         textTheme: const TextTheme(
           displaySmall: TextStyle(
-            color: primaryColor,
+            color: Colors.white,
             fontWeight: FontWeight.bold,
           ),
-          labelLarge: TextStyle(
-            color: primaryDark,
+          labelMedium: TextStyle(
+            color: darkerColor,
             fontWeight: FontWeight.bold,
           ),
         ),
