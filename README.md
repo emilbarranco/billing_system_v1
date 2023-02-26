@@ -18,6 +18,6 @@ We have implemented the following technologies/libraries to get the features lis
 
 ### Preview
 
-Splash Screen |  Home Screen |
+Welcome Screen |  Login Screen |
 |:-----------:|:-----------:|
-![](./assets/preview1.png) | ![](https://www.nawpic.com/media/2020/iphone-12-pro-max-nawpic-1.png) |
+![](./assets/preview1.png) | ![](./assets/preview2.png) |

@@ -1,4 +1,5 @@
 import 'package:billing_system_v1/constants.dart';
+import 'package:billing_system_v1/screens/login_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
@@ -53,17 +54,25 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
             Expanded(
               child: TextButton(
                 onPressed: () {},
-                child: Container(
-                  padding: const EdgeInsets.symmetric(
-                      horizontal: 40.0, vertical: 20.0),
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(10),
-                    color: lighterColor,
+                child: ElevatedButton(
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: primaryColor,
+                    foregroundColor: primaryDark,
+                    padding: const EdgeInsets.symmetric(
+                        horizontal: 30.0, vertical: 15.0),
+                    textStyle: const TextStyle(
+                        fontWeight: FontWeight.bold, fontSize: 18.0),
                   ),
                   child: const Text(
                     'Get Started',
-                    style: TextStyle(color: primaryDark, fontSize: 16.0, fontWeight: FontWeight.bold),
                   ),
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => const LoginScreen()),
+                    );
+                  },
                 ),
               ),
             ),
